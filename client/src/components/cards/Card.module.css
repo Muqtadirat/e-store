@@ -1,0 +1,19 @@
+.cardWrapper {
+  display: flex;
+  border-radius: 6px;
+  padding: 10px 12px;
+  width: 200px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #E3F0FF;
+}
+
+.cardWrapper[data-variant="primary"] {
+  background-color: #f38332;
+  padding: 16px 40px 22px 16px;
+}
+
+.cardWrapper[data-variant="secondary"] {
+  background-color: #55bdc3;
+  padding: 16px 40px 22px 16px;
+}
