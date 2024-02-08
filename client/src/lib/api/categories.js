@@ -8,3 +8,4 @@ export default async function FetchCategories() {
     console.error("Error fetching data...");
   }
 }
+
