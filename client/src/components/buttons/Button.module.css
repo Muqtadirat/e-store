@@ -1,0 +1,14 @@
+.btn {
+  background-color: var(--primary-blue);
+  border: none;
+  border-radius: 6px;
+  padding: 8px 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn[data-variant="secondary"] {
+  background-color: white;
+  border: 1px solid var(--grey-300);
+  color: black;
+}
