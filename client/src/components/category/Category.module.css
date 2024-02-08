@@ -1,0 +1,42 @@
+.category {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  gap: 1.25rem;
+  border: 2px solid var(--grey-300);
+  border-radius: 6px;
+  background-color: white;
+}
+
+/* banner */
+h2 {
+  margin-bottom: 1.25rem;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+span {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.trend {
+  width: 41.5em;
+  padding-left: 2.8rem;
+  padding-top: 3.4rem;
+  background-image: url(../../assets/banner.webp);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid;
+}
+
+/* cards styling */
+.cardBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loginCard {
+  gap: 8px;
+}
