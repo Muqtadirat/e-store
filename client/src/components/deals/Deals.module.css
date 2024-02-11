@@ -1,0 +1,17 @@
+.Deals {
+  border: 2px solid var(--grey-300);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+/* timer styling */
+.Countdown {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.timer {
+  display: flex;
+  gap: 6px;
+}
