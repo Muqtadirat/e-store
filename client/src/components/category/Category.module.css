@@ -38,6 +38,11 @@ span {
   gap: 10px;
 }
 
+.avatar {
+  display: flex;
+  gap: 10px;
+}
+
 .loginCard {
   gap: 8px;
 }

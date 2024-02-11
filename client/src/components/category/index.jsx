@@ -3,6 +3,7 @@ import Card from "../cards";
 import CategoryList from "./CategoryList";
 import Button from "../buttons";
 import { fetchCategories } from "../../lib/api";
+import { Avatar } from "../../icons";
 import styles from "./Category.module.css";
 
 const Category = () => {
@@ -31,7 +32,9 @@ const Category = () => {
 
       <div className={styles.cardBox}>
         <Card className={styles.loginCard}>
-          <p>{`Hi user, let's get started`}</p>
+          <div className={styles.avatar}>
+            <Avatar /> <p>{`Hi user, let's get started`}</p>
+          </div>
           <Button>Join now</Button>
           <Button variant="secondary">Log in</Button>
         </Card>
