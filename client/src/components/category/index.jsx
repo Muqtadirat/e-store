@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { BannerCard } from "../cards";
-import CategoryList from "./CategoryList";
+import CategoryList from "./categoryList";
 import Button from "../buttons";
 import { fetchCategories } from "../../lib/api";
 import { Avatar } from "../../icons";
