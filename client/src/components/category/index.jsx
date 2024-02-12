@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import Card from "../cards";
-import CategoryList from "./CategoryList";
+import { BannerCard } from "../cards";
+import CategoryList from "./categoryList";
 import Button from "../buttons";
 import { fetchCategories } from "../../lib/api";
+import { Avatar } from "../../icons";
 import styles from "./Category.module.css";
 
 const Category = () => {
@@ -30,13 +31,15 @@ const Category = () => {
       </div>
 
       <div className={styles.cardBox}>
-        <Card className={styles.loginCard}>
-          <p>{`Hi user, let's get started`}</p>
+        <BannerCard className={styles.loginCard}>
+          <div className={styles.avatar}>
+            <Avatar /> <p>{`Hi user, let's get started`}</p>
+          </div>
           <Button>Join now</Button>
           <Button variant="secondary">Log in</Button>
-        </Card>
-        <Card variant="primary">Get US $10 off with a new supplier</Card>
-        <Card variant="secondary">Send quotes with supplier preferences</Card>
+        </BannerCard>
+        <BannerCard variant="primary">Get US $10 off with a new supplier</BannerCard>
+        <BannerCard variant="secondary">Send quotes with supplier preferences</BannerCard>
       </div>
     </section>
   );

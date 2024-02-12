@@ -28,6 +28,7 @@ span {
   background-position: center;
   background-size: cover;
   border: 1px solid;
+  font-family: var(--secondary-font);
 }
 
 /* cards styling */
@@ -37,6 +38,28 @@ span {
   gap: 10px;
 }
 
+.avatar {
+  display: flex;
+  gap: 10px;
+}
+
 .loginCard {
   gap: 8px;
+}
+
+/* list styling */
+ul {
+  width: 15.6rem;
+}
+
+.categoryItem {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.categoryItem:hover {
+  background-color: var(--hover-color);
+  font-weight: 600;
+  border-radius: 6px;
 }

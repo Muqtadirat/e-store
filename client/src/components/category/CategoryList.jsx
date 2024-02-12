@@ -2,7 +2,7 @@ import styles from "./Category.module.css";
 
 const CategoryList = ({ categories = [] }) => {
   return (
-    <ul>
+    <ul className={styles.ul}>
       {categories?.map((category) => {
         return (
           <li className={styles.categoryItem} key={category.id}>
