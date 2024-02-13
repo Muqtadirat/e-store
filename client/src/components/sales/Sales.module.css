@@ -1,0 +1,22 @@
+.Sales {
+  display: flex;
+  padding: 20px;
+}
+
+.saleCategory {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-left: 20px;
+}
+
+.saleCategory p {
+  width: 120px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cardBox {
+  display: flex;
+  flex-wrap: wrap;
+}

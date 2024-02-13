@@ -11,4 +11,5 @@
   background-color: white;
   border: 1px solid var(--grey-300);
   color: black;
+  width: fit-content;
 }
