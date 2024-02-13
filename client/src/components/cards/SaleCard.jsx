@@ -5,7 +5,7 @@ const SaleCard = ({ item, price, img, alt }) => {
     <div className={styles.sale}>
       <div>
         <p>{item}</p>
-        <p>{price}</p>
+        <p>From USD{price}</p>
       </div>
 
       <img src={img} alt={alt} />
